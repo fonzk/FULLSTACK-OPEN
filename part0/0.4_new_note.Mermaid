@@ -1,6 +1,8 @@
 sequenceDiagram
- 
+  Note right of browser: EVENT CLICK 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
+  Note right of browser: DATA  SUNMITTED
+
     activate server
     server-->>browser: HTML document
     deactivate server
